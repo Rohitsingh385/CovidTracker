@@ -1,0 +1,96 @@
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Baloo Tammudu 2', cursive;
+        color: #b3b3b3;
+      }
+     body{
+       background-color:#f2f2f2;
+     }
+      h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 10px;
+      }
+      #confirmed{
+        padding: 40px 120px;
+        border: .2px solid black;
+        height: 120px;
+        width: 360px;
+        background-color:#ffe6f2;
+        margin-bottom: 8px;
+        border-radius: 20px;
+        border-bottom: 5px solid #ff3333;
+      }
+      #confirmed:hover{
+        transition: .5s;
+        font-size: 30px;
+        border-bottom: 5px solid #33ff33;
+        color: red;
+      }
+      #active{
+        padding: 40px 120px;
+        border: .2px solid black;
+        height: 120px;
+        width: 360px;
+        background-color: #ddccff;
+        margin-bottom: 8px;
+        border-radius: 20px;
+        border-bottom: 5px solid #ff3333;
+   
+      }
+      #active:hover{
+        transition: .5s;
+        font-size: 30px;
+        border-bottom: 5px solid #33ff33;
+        color: red;
+      }
+      #recovered{
+        padding: 40px 120px;
+        border: .2px solid black;
+        height: 120px;
+        width: 360px;
+        background-color: #ccffcc;
+        margin-bottom: 8px;
+        border-radius: 20px;
+        border-bottom: 5px solid #ff3333;
+      }
+      #recovered:hover{
+        transition: .5s;
+        font-size: 30px;
+        border-bottom: 5px solid #33ff33;
+        color: red;
+      }
+     
+   #btn{
+     border: 1px solid black;
+     margin: 10px 10px;
+     height: 20px;
+     width: 80px;
+     border-radius: 10px;
+     outline: none;
+     
+     background-color: black;
+     color: white;
+   }
+  #btn:hover{
+    background-color: white;
+    color: black;
+  }
+  footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+  }
+    .dark_mode{
+      background-color: black;
+    } 
+    h4{
+      padding-bottom: 0px;
+      text-align: center;
+      color: #80bfff;
+    }
